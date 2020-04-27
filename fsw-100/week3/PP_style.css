@@ -1,0 +1,48 @@
+h1 {
+	text-align: center;
+	color: rgb(236, 45, 173);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table {
+	border-width: 4px;
+	border-style: outset;
+}	
+th {
+	border-width: 2px;
+	border-style: solid;
+	
+}
+td {
+	border-width: 4px;
+	border-style: inset;
+}
+html {
+	background-image: url("https://media.istockphoto.com/photos/hairdresser-tools-on-wooden-background-with-copy-space-at-top-picture-id639307156?k=6&m=639307156&s=612x612&w=0&h=-0J6vBdbqilOZcUgEgS8eP3L2zrkG2GnGEV-v89_pdI=");
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+head, p, h3, h4 {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+nav {
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+  }
+.table {
+    margin-left: auto;
+	margin-right: auto;
+	width: 40%
+}
+h4{
+	line-height: 30px;
+}
+
