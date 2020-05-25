@@ -1,0 +1,116 @@
+body {
+    background: #DAEBF0;
+ }
+ section {
+    width: 200px;
+    margin: 0 auto;
+ }
+ button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 50px 0;
+    background: #3498db;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+ }
+button#one {
+    background: green;
+    color: black;
+    -webkit-transition: background .5s ease, color .3s;
+    -moz-transition: background .5s ease, color .3s;
+    -ms-transition: background .5s ease, color .3s;
+    transition: background .5s ease, color .3s;
+ }
+ button#one:hover {
+    background:blanchedalmond;
+    color: burlywood;
+ }
+button#two span {
+    padding-left: 10px;
+ }
+button#two i {
+    opacity: 0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+ }
+button#two:hover i {
+    padding-left: 10px;
+    opacity: 1;
+ }
+ button#three {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    
+    width: 100px;
+    padding-left: 35px;
+ }
+  
+ button#three span {
+    opacity: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+ }
+  
+ button#three:hover span {
+    opacity: 1;
+ }
+ button#three:hover {
+    width: 200px;
+    padding-left: 0;
+ }
+ button#four {
+    width: 175px;
+    background:red;
+    margin:0 auto;
+  
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+ }
+ button#four:hover {
+    width: 200px;
+    background: yellow;
+ }
+ button#five{
+    background: orchid;
+    border: 2px solid #3498db;
+  
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+ }
+  
+ button#five:hover{
+    background: none;
+    color:teal;
+ }
+
+ button#six:hover{
+    background: mediumspringgreen;
+    color: yellowgreen;
+    font-family: Sans-serif;
+    font-size: 20px;
+    height: 60px;
+    width: 150px;
+    line-height: 60px;
+    margin: 25px 25px;
+    text-align: center;
+    border: 0;
+    transition: all 0.3s ease 0s;
+}
+
