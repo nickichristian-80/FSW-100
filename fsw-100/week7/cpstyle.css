@@ -1,0 +1,291 @@
+@media only screen and (min-width: 768px){  
+div {
+    width: 1100px;
+    border: 15px solid lightslategray;
+    padding: 50px;
+    margin: 50px;
+      }
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 200px;
+    background-color: aqua;
+    font-family : Sofia;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color:aqua;
+    color:darkslategrey;
+  }
+h1 {
+	text-align: center;
+	color: rgb(236, 45, 173);
+  font-family: Harrington;
+  font-size: 50px;
+  margin-bottom: 25px;
+  text-decoration: underline;
+}
+table {
+	border-width: 4px;
+    border-style: outset;
+    color: darkslategrey;
+}	
+th {
+	border-width: 2px;
+	border-style: solid;
+	
+}
+td {
+	border-width: 4px;
+	border-style: inset;
+}
+html {
+	background-image: url("https://www.muralswallpaper.co.uk/app/uploads/soft-pink-marble-textures-plain.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+head, h3, h4 {
+	margin-left: 75px;
+	margin-right: 75px;
+}
+nav {
+	text-align: center;
+}
+h2{
+  text-align: center;
+  font-family: Sofia;
+}
+p {
+  font-size: 20px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 75px;
+  font-family:Sofia ;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+  }
+.table {
+  margin-left: auto;
+	margin-right: auto;
+  width: 40%;
+  background-color: aqua;
+  font-family: Sofia;
+}
+h4{
+	line-height: 30px;
+}
+img {
+  float: right;
+  border:5px solid black;
+  margin-top: 80px;
+}
+footer {
+  position: fixed bottom;
+  color: darkslategrey;
+  font-family: Happy Monkey;
+}
+audio {
+  background-color: rgb(236, 45, 173) ;
+}
+
+
+/*about page flex box*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+
+
+/*Contact page */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid darkslategray; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical; 
+    font-family: Sofia;
+  }
+  input[type=submit] {
+    background-color:magenta;
+    color: aqua;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Sofia;
+  }
+  input[type=submit]:hover {
+    background-color: darkslategray;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: mediumturquoise;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 768px){
+ 
+    div {
+        width:485px;
+        border: 15px solid lightslategray;
+        padding: 50px;
+        margin: 50px;
+          }
+    ul {
+        list-style-type: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding: 5px;
+        width: 200px;
+        background-color: aqua;
+        font-family : Sofia;
+      }
+      
+      li a {
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color on hover */
+      li a:hover {
+        background-color:aqua;
+        color:darkslategrey;
+      }
+    h1 {
+      text-align: center;
+      color: rgb(236, 45, 173);
+      font-family: Harrington;
+      font-size: 50px;
+      margin-bottom: 25px;
+      text-decoration: underline;
+    }
+    table {
+      border-width: 4px;
+        border-style: outset;
+        color: darkslategrey;
+    }	
+    th {
+      border-width: 2px;
+      border-style: solid;
+      
+    }
+    td {
+      border-width: 4px;
+      border-style: inset;
+    }
+    html {
+      background-image: url("https://www.muralswallpaper.co.uk/app/uploads/soft-pink-marble-textures-plain.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+    head, h3, h4 {
+      margin-left: 75px;
+      margin-right: 75px;
+    }
+    nav {
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+      font-family: Sofia;
+    }
+    p {
+      font-size: 20px;
+      flex-wrap: wrap;
+      margin-top: 50px;
+      margin-bottom: 75px;
+      font-family:Sofia ;
+    }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      }
+    .table {
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      background-color: aqua;
+      font-family: Sofia;
+    }
+    h4{
+      line-height: 30px;
+    }
+    img {
+      float: right;
+      border:5px solid black;
+      margin-top: 80px;
+    }
+    footer {
+      position: fixed bottom;
+      color: darkslategrey;
+      font-family: Happy Monkey;
+    }
+    audio {
+      background-color: rgb(236, 45, 173) ;
+    }
+    
+    
+    /*about page flex box*/
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      border: none;
+    }
+    
+    
+    
+    /*Contact page */
+    
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        border: 1px solid darkslategray; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 6px; 
+        margin-bottom: 16px;
+        resize: vertical; 
+        font-family: Sofia;
+      }
+      input[type=submit] {
+        background-color:magenta;
+        color: aqua;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: Sofia;
+      }
+      input[type=submit]:hover {
+        background-color: darkslategray;
+      }
+      .container {
+        border-radius: 5px;
+        background-color: mediumturquoise;
+        padding: 20px;
+      }
+    }  
